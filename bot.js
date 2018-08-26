@@ -2,8 +2,6 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 let prefix = "poly:";
 var fs = require("fs");
-require('dotenv').config()
-require('http').createServer().listen(3000)
 var lelCountFile = fs.readFileSync("./variables.txt", "utf8");
 
 
