@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+const config = require("./config.json")
 let prefix = "poly:";
 var fs = require("fs");
 var lelCountFile = fs.readFileSync("./variables.txt", "utf8");
@@ -64,4 +65,4 @@ client.on("message", (message) => {
       
 
 });
-client.login(process.env.TOKEN);
+client.login(config.token);
