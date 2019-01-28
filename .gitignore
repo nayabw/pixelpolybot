@@ -1,0 +1,9 @@
+.idea/
+.vscode/
+bin/
+obj/
+
+*.DotSettings.user
+*.DS_Store
+
+count
